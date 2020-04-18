@@ -4,6 +4,8 @@ function greeting(msg) {
   };
 }
 
+// another way
+
 function greeting(msg) {
   function ret(name) {
     console.log(msg + " " + name);
