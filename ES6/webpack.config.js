@@ -3,8 +3,9 @@ const path = require("path");
 const config = {
   entry: "./src/index.js",
   output: {
-    path: parh.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
+    publickpath: "/dist",
   },
 
   module: {
